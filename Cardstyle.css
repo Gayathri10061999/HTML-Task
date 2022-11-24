@@ -1,0 +1,20 @@
+input[type="text"]{
+    border: none;
+    border-bottom:2px solid black;
+}
+table{
+    border: 5px double black;
+    /* background-color: white; */
+    text-align: center;
+    position: relative;
+    margin: 20%;
+}
+th{
+    background-color:red;
+    color: white; 
+    /* text-align: center; */
+    /* margin-left: 60%; */
+    position: relative;
+    left: 20%;
+    
+}

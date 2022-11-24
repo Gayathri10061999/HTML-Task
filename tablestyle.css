@@ -1,0 +1,11 @@
+table,th, td {
+    border: black 2px solid;
+    border-collapse: collapse;
+  }
+  table{
+      background-color: white;
+      position: relative;
+      margin: 20%;
+      left: 15%;
+  }
+  

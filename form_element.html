@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Form Element</h1>
+    <form>
+        <fieldset>
+        <label for="firstname">First name:</label><br>
+        <input type="text" id="firstname" name="firstname"><br><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" id="lastname" name="lastname"><br><br>
+        <label for="cars">Mobile:</label>
+  <select id="mobile" name="mobile" size="3">
+    <option value="Iphone">Iphone</option>
+    <option value="Readme">Readme</option>
+    <option value="Oppo" selected>Oppo</option>
+    <option value="Realme">Realme</option>
+    <option value="blackberry">blackberry</option>
+    <option value="Samsung">Samsung</option>    
+  </select>
+  <br><br>
+  <textarea name="message" rows="10" cols="30">Multiline input area</textarea>
+  <br><br>
+  <button type="button" onclick="alert('button form element')">Click Me!</button>
+  <br><br>
+  browser: <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <br><br>
+  <output>The output element represents the result of a calculation.</output>
+  <br><br>
+  <input type="submit" value="Submit">
+</fieldset>
+    </form>
+</body>
+</html>
